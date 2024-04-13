@@ -7,7 +7,7 @@ const AppCalcSimples = () => {
   const [getRes, setRes] = useState(' ');
 
   const Somar=()=> {
-    console.log('Somar clicado');
+    console.log('Somar clicado!');
     console.log('N1: ' + getN1 + ' ' + 'N2: ' + getN2);
     const r = parseInt(getN1) + parseInt(getN2)
     setRes(String(r));     
